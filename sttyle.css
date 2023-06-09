@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.ul-1 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ul-2 {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.topnav {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.hero-section {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    background-image: url(https://i03.appmifile.com/104_operator_in/07/06/2023/3d11d23ba572a119efabbca75b1c529f.jpg?f=webp);
+    background-size: cover;  
+    display: flex;  flex-direction: column; justify-content: center;
+}
+.hero-section  button  { position: relative; left: 80px;  top: 30px; background-color: royalblue; color: white;  border: none;}
+
+.hero-2 {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+}
+
+.hero-2-div-1 {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 80px;
+}
+
+.hero-2-div-2 {
+    width: 50%;
+    background-image: url(chrome_ZTPQwVmEjG.png);
+    background-size: cover;
+}
+
+.box-1 {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.A {
+    width: 45%;
+    height: 300px;
+
+    background-image: url(https://t3.ftcdn.net/jpg/03/29/14/54/240_F_329145498_li6RAsqWV3bvjF7LrTGXtIJTeVjCuINW.jpg);
+    background-size: cover;
+}
+
+.B {
+    width: 45%;
+    height: 300px;
+
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/54dd81128115719.Y3JvcCw4MDgsNjMyLDAsMA.jpg);
+    background-size: cover;
+}
+
+.box-2 {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-2-A {
+    width: 45%;
+    height: 300px;
+
+    background-image: url(https://i03.appmifile.com/185_operator_in/27/04/2023/be69dad523d77b975a06324f7930dbd0.jpg);
+    background-size: cover;
+}
+
+.box-2-B {
+    width: 45%;
+    height: 300px;
+
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/27488b170540765.Y3JvcCw4MDgsNjMyLDAsMA.png);
+    background-size: cover;
+}
+
+.box-3 {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-3-A {
+    width: 45%;
+    height: 300px;
+
+    background-image: url(https://i03.appmifile.com/203_operator_in/08/06/2023/2205c24700ffa2dd0ce110843def50d1.jpg?f=webp);
+    background-size: cover;
+}
+
+.box-3-B {
+    width: 45%;
+    height: 300px;
+    background-color: teal;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/916bcb171854477.Y3JvcCw0NDkwLDM1MTEsMCww.png);
+    background-size: cover;
+
+
+}
+
+.box-4 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-4-a {
+    width: 50%;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-4-a ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.z {
+    display: flex;
+    flex-direction: column;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+}
+
+.y {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4-b {
+    width: 50%;
+    height: 450px;
+
+}
+
+.box-4-b-1 {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-4-b-2 {
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-5 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.box-5 ul {
+    width: 20%;
+    line-height: 30px;
+    padding-top: 60px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.my {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+}
+
+.my input {
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.box-6 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(9, 9, 9);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.box-6 h5 {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+@media (max-width:768px) {
+    .main {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .topnav {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ul-1 li{  display: none;}
+    .ul-1{ width: 100%; text-align: center;}
+
+    .ul-2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .hero-2 {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+
+
+    }
+
+    .hero-2-div-1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-2-div-2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .box-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .A {
+        width: 100%;
+    }
+
+    .B {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-2-A {
+        width: 100%;
+    }
+
+    .box-2-B {
+        width: 100%;
+    }
+
+    .box-3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-3-A {
+        width: 100%;
+    }
+
+    .box-3-B {
+        width: 100%;
+    }
+
+    .box-4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-4-a {
+        width: 100%;
+    }
+
+    .box-4-b {
+        width: 100%;
+    }
+
+    .box-5 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box-5.ul-1{ text-align: center;}
+    .my{  width: 100%; height: auto; text-align: center;}
+}
